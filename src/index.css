@@ -1,10 +1,20 @@
+:root{
+  --fonte: 'Raleway', sans-serif;
+  --preto: #2c2627
+  --branco-amarelado: #f4d5d3
+  --amarelo-claro:#efc09a
+  --amarelo:#ebac61
+  --amarelo-ouro:#e79828
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--fonte);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
 }
 
 code {
