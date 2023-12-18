@@ -1,0 +1,17 @@
+
+select{
+    text-align: center;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border: 2px solid #e79828;
+    border-radius: 12px;
+    outline: none;
+    
+}
+.filtro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

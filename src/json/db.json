@@ -1,26 +1,670 @@
-[
-    {
-        "id": 1,
-        "titulo": "O labirinto do Logcat",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
-        "link": "https://www.youtube.com/embed/ypvGqZGJBls"
-    },
-    {
-        "id": 2,
-        "titulo": "Um componente no espaço",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
-        "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
-    },
-    {
-        "id": 3,
-        "titulo": "O poderoso JavaScript",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
-        "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
-    },
-    {
-        "id": 4,
-        "titulo": "Dart, o Caçador de Andróides",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
-        "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
-    }
-]
+
+    [
+        {
+          "id": 1,
+          "titulo": "Wings",
+          "ano": 1929,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/6/67/Wings_poster.jpg",
+          "link": "https://www.youtube.com/embed/GFRas2-x_OQ"
+        },
+        {
+          "id": 2,
+          "titulo": "The Broadway Melody",
+          "ano": 1930,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Broadway_Melody_poster.jpg",
+          "link": "https://www.youtube.com/embed/SdY_zfafdmQ"
+        },
+        {
+          "id": 3,
+          "titulo": "All Quiet on the Western Front",
+          "ano": 1930,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/grapXipP3fM"
+        },
+        {
+          "id": 4,
+          "titulo": "Cimarron",
+          "ano": 1931,
+          "capa": "https://br.web.img3.acsta.net/medias/nmedia/18/96/71/35/20485042.jpg",
+          "link": "https://www.youtube.com/embed/UZpY4lCdGp8"
+        },
+        {
+          "id": 5,
+          "titulo": "Grand Hotel",
+          "ano": 1932,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMTQxNDc4MDcwNF5BMl5BanBnXkFtZTgwNzY0MjUzMjE@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/QFBKK8uaPww"
+        },
+        {
+          "id": 6,
+          "titulo": "Cavalcade",
+          "ano": 1934,
+          "capa": "https://media.fstatic.com/910U2Nvzio5jtZVqFV48qSQA7es=/322x478/smart/filters:format(webp)/media/movies/covers/2018/05/MV5BNWJlMjljMmItZTNiNC00NGI3LWFhYzgtMTk1ZmNhZjZiYzU2XkEyXkFqcGdeQX_CAy9E8D.jpg",
+          "link": "https://www.dailymotion.com/video/x20mens"
+        },
+        {
+          "id": 7,
+          "titulo": "It Happened One Night",
+          "ano": 1935,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/b/b5/It-happened-one-night-poster_%28cropped%29.jpg",
+          "link": "https://www.youtube.com/embed/Kd509cLN-9U"
+        },
+        {
+          "id": 8,
+          "titulo": "Mutiny on the Bounty",
+          "ano": 1936,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Mutiny_on_the_Bounty_poster.jpg",
+          "link": "https://www.youtube.com/embed/aFalJyGNGmE"
+        },
+        {
+          "id": 9,
+          "titulo": "The Great Ziegfeld",
+          "ano": 1937,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Great-Ziegfeld-1936-Poster.jpg",
+          "link": "https://www.youtube.com/embed/h-Rez1xM3yo"
+        },
+        {
+          "id": 10,
+          "titulo": "The Life of Emile Zola",
+          "ano": 1938,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/7/7c/The_Life_of_Emile_Zola_%281937_film_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/bTStzVavGpo"
+        },
+        {
+          "id": 11,
+          "titulo": "You Can’t Take It with You",
+          "ano": 1939,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/d/d1/You_Can%27t_Take_it_With_You_film_poster.jpg",
+          "link": "https://www.youtube.com/embed/tUJLqOGoAAo"
+        },
+        {
+          "id": 12,
+          "titulo": "Gone With the Wind",
+          "ano": 1940,
+          "capa": "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/0X94oZgJis4"
+        },
+        {
+          "id": 13,
+          "titulo": "Rebecca",
+          "ano": 1941,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rebecca_%281939_poster%29.jpeg",
+          "link": "https://www.youtube.com/embed/cJok8CPtHRw"
+        },
+        {
+          "id": 14,
+          "titulo": "How Green Was My Valley",
+          "ano": 1942,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/9/99/How_Green_Was_My_Valley_%281941_poster_-_Style_A%29.jpg",
+          "link": "https://www.youtube.com/embed/Aq7yCJG7Dew"
+        },
+        {
+          "id": 15,
+          "titulo": "Mrs. Miniver",
+          "ano": 1943,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/9/94/Mrs._Miniver_%281942_poster_-_Style_D%29.jpg",
+          "link": "https://www.youtube.com/embed/QXXHxxSZZ8A"
+        },
+        {
+          "id": 16,
+          "titulo": "Casablanca",
+          "ano": 1944,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg",
+          "link": "https://www.youtube.com/embed/BkL9l7qovsE"
+        },
+        {
+          "id": 17,
+          "titulo": "Going My Way",
+          "ano": 1945,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Going_My_Way_%281944_poster%29.jpg/1200px-Going_My_Way_%281944_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/0cGqBXb3QVQ"
+        },
+        {
+          "id": 18,
+          "titulo": "The Lost Weekend",
+          "ano": 1946,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/2/2d/The_Lost_Weekend_%281945_film%29.jpg",
+          "link": "https://www.youtube.com/embed/j-tefK9hkuM"
+        },
+        {
+          "id": 19,
+          "titulo": "The Best Years of Our Lives",
+          "ano": 1947,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Best_Years_of_Our_Lives_%281946_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/1yc5PugV4mk"
+        },
+        {
+          "id": 20,
+          "titulo": "Gentleman’s Agreement",
+          "ano": 1948,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Gentleman%27s_Agreement_%281947_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/e1g-quBsJm8"
+        },
+        {
+          "id": 21,
+          "titulo": "Hamlet",
+          "ano": 1949,
+          "capa": "https://m.media-amazon.com/images/M/MV5BM2Q3MDk4MzQtYzg1Ny00MGQ2LThjMzgtYWRjY2JlZTRkNjU0XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
+          "link": "https://www.youtube.com/embed/SurQBgWIVh0"
+        },
+        {
+          "id": 22,
+          "titulo": "All the King’s Men",
+          "ano": 1950,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/a/a1/All_the_King%27s_Men_%281949_film_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/DivcuGBAHcI"
+        },
+        {
+          "id": 23,
+          "titulo": "All About Eve",
+          "ano": 1951,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/All_About_Eve_%281950_poster_-_retouch%29.jpg/1200px-All_About_Eve_%281950_poster_-_retouch%29.jpg",
+          "link": "https://www.youtube.com/embed/MILphnfj2mo"
+        },
+        {
+          "id": 24,
+          "titulo": "An American in Paris",
+          "ano": 1952,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/8/8d/An_American_in_Paris_%281951_film_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/o2WAMZRCbpU"
+        },
+        {
+          "id": 25,
+          "titulo": "The Greatest Show on Earth",
+          "ano": 1953,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMzg5MWIyMjItYWMyYS00YTFjLWFlZGMtZTJkNzgyY2VmY2U2XkEyXkFqcGdeQXVyNzE2NDk3NTY@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/pNygNdVd7kM"
+        },
+        {
+          "id": 26,
+          "titulo": "From Here to Eternity",
+          "ano": 1954,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/5/53/From_Here_to_Eternity_%281953_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/I7BwIPCX6ZQ"
+        },
+        {
+          "id": 27,
+          "titulo": "On the Waterfront",
+          "ano": 1955,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/e/ee/On_the_Waterfront_%281954_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/vOdYAXOfLMc"
+        },
+        {
+          "id": 28,
+          "titulo": "Marty",
+          "ano": 1956,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Marty_%281955_film_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/SHWWuBGybJQ"
+        },
+        {
+          "id": 29,
+          "titulo": "Around the World in 80 Days",
+          "ano": 1957,
+          "capa": "https://m.media-amazon.com/images/M/MV5BNjRhNjVlYTgtODZiOS00OTVhLWE4ZTItZjc3MTFiYWY1YjI5L2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/vjiCO8k6Jhg"
+        },
+        {
+          "id": 30,
+          "titulo": "The Bridge on the River Kwai",
+          "ano": 1958,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/d/d9/The_Bridge_on_the_River_Kwai_%281958_US_poster_-_Style_A%29.jpg",
+          "link": "https://www.youtube.com/embed/PDVjulgOjrE"
+        },
+        {
+          "id": 31,
+          "titulo": "Gigi",
+          "ano": 1959,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Gigi_%281958_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/rH8aVaeHqq4"
+        },
+        {
+          "id": 32,
+          "titulo": "Ben-Hur",
+          "ano": 1960,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/7/74/Ben_hur_1959_poster.jpg",
+          "link": "https://www.youtube.com/embed/NR1ZHKw09n8"
+        },
+        {
+          "id": 33,
+          "titulo": "The Apartment",
+          "ano": 1961,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_Apartment_%281960_poster%29.jpg",
+          "link": "https://www.youtube.com/embed/QqqYnbFHZh0"
+        },
+        {
+          "id": 34,
+          "titulo": "West Side Story",
+          "ano": 1962,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/-tK9tARX83Y"
+        },
+        {
+          "id": 35,
+          "titulo": "Lawrence of Arabia",
+          "ano": 1963,
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lawrence_of_arabia_ver3_xxlg.jpg/1200px-Lawrence_of_arabia_ver3_xxlg.jpg",
+          "link": "https://www.youtube.com/embed/vOlRhGEhG7k"
+        },
+        {
+          "id": 36,
+          "titulo": "Tom Jones",
+          "ano": 1964,
+          "capa": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p4215_p_v12_ac.jpg",
+          "link": "https://www.youtube.com/embed/C0DDuzX2bjM"
+        },
+        {
+          "id": 37,
+          "titulo": "My Fair Lady",
+          "ano": 1965,
+          "capa": "https://br.web.img3.acsta.net/pictures/15/01/29/20/42/293214.jpg",
+          "link": "https://www.youtube.com/embed/ZJBM6qs22sE"
+        },
+        {
+          "id": 38,
+          "titulo": "The Sound of Music",
+          "ano": 1966,
+          "capa": "https://assets.nflxext.com/us/boxshots/hd1080/60001917.jpg",
+          "link": "https://www.youtube.com/embed/aMMgcAqOYbI"
+        },
+        {
+          "id": 39,
+          "titulo": "A Man for All Seasons",
+          "ano": 1967,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMTRjOTA1NzctNzFmMy00ZjcwLWExYjgtYWQyZDM5ZWY1Y2JlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/dxfpXoXBYRA"
+        },
+        {
+          "id": 40,
+          "titulo": "In the Heat of the Night",
+          "ano": 1968,
+          "capa": "https://s3.amazonaws.com/criterion-production/films/2f6cfde2bc9491f552e034f0de2a80a6/FhVr9CKMTklty4MLxK6jqhVuFQaDM1_large.jpg",
+          "link": "https://www.youtube.com/embed/d15DhX_ltls"
+        },
+        {
+          "id": 41,
+          "titulo": "Oliver!",
+          "ano": 1969,
+          "capa": "https://1.bp.blogspot.com/-KrioFQe9DdA/YLwohI7KdZI/AAAAAAAAG1g/VVdNcRXnX6Y2ZWbz_tn9HcV2sIC2YUrMQCLcBGAsYHQ/s2048/Oliver_1968_original_film_art_58df9596-42c5-4934-b0e6-6eac0e1a2649_5000x.jpg",
+          "link": "https://www.youtube.com/embed/U1-Q3nyMelc"
+        },
+        {
+          "id": 42,
+          "titulo": "Midnight Cowboy",
+          "ano": 1970,
+          "capa": "https://m.media-amazon.com/images/M/MV5BZmFlZDZmMTYtZjczOS00M2M0LWIxYzItYmRjM2IxYTg4NDg2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/o29GST0Lj28"
+        },
+        {
+          "id": 43,
+          "titulo": "Patton",
+          "ano": 1971,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMmNhZmJhMmYtNjlkMC00MjhjLTk1NzMtMTNlMzYzNjZlMjNiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/g-0dTpzNzwo"
+        },
+        {
+          "id": 44,
+          "titulo": "The French Connection",
+          "ano": 1972,
+          "capa": "https://m.media-amazon.com/images/M/MV5BOTZhY2E3NmItMGIwNi00OTA2LThkYmEtODFiZTM0NGI0ZWU5XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/T76K3RxJY0A"
+        },
+        {
+          "id": 45,
+          "titulo": "The Godfather",
+          "ano": 1973,
+          "capa": "https://i.pinimg.com/1200x/b0/21/fe/b021fe6711ec0a442420719e56633101.jpg",
+          "link": "https://www.youtube.com/embed/UaVTIH8mujA"
+        },
+        {
+          "id": 46,
+          "titulo": "The Sting",
+          "ano": 1974,
+          "capa": "https://m.media-amazon.com/images/M/MV5BNGU3NjQ4YTMtZGJjOS00YTQ3LThmNmItMTI5MDE2ODI3NzY3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/_nAIb_J9T5M"
+        },
+        {
+          "id": 47,
+          "titulo": "The Godfather: Part II",
+          "ano": 1975,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/9O1Iy9od7-A"
+        },
+        {
+          "id": 48,
+          "titulo": "One Flew Over the Cuckoo’s Nest",
+          "ano": 1976,
+          "capa": "https://upload.wikimedia.org/wikipedia/pt/f/fb/CuckoosNest.jpg",
+          "link": "https://www.youtube.com/embed/OXrcDonY-B8"
+        },
+        {
+          "id": 49,
+          "titulo": "Rocky",
+          "ano": 1977,
+          "capa": "https://upload.wikimedia.org/wikipedia/pt/1/18/Rocky_poster.jpg",
+          "link": "https://www.youtube.com/embed/-Hk-LYcavrw"
+        },
+        {
+          "id": 50,
+          "titulo": "Annie Hall",
+          "ano": 1978,
+          "capa": "https://upload.wikimedia.org/wikipedia/pt/4/40/Annie_Hall.png",
+          "link": "https://www.youtube.com/embed/OqVgCfZX-yE"
+        },
+        {
+          "id": 51,
+          "titulo": "The Deer Hunter",
+          "ano": 1979,
+          "capa": "https://upload.wikimedia.org/wikipedia/pt/2/2d/TheDeerHunterPoster.jpg",
+          "link": "https://www.youtube.com/embed/g7q1SjVdsNk"
+        },
+        {
+          "id": 52,
+          "titulo": "Kramer vs. Kramer",
+          "ano": 1980,
+          "capa": "https://br.web.img2.acsta.net/medias/nmedia/18/96/98/81/20500576.jpg",
+          "link": "https://www.youtube.com/embed/KZfIl9isKLU"
+        },
+        {
+          "id": 53,
+          "titulo": "Ordinary People",
+          "ano": 1981,
+          "capa": "https://m.media-amazon.com/images/M/MV5BNWU3MDFkYWQtMWQ5YS00YTcwLThmNDItODY4OWE2ZTdhZmIwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/HQKEdiQ79OM"
+        },
+        {
+          "id": 54,
+          "titulo": "Chariots of Fire",
+          "ano": 1982,
+          "capa": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p4414_p_v8_an.jpg",
+          "link": "https://www.youtube.com/embed/odtqtlhsv4E"
+        },
+        {
+          "id": 55,
+          "titulo": "Gandhi",
+          "ano": 1983,
+          "capa": "https://m.media-amazon.com/images/M/MV5BYjZiYmYwYjYtOTdlZS00OGM4LTg0NmQtOTg0OGMzMjkyYWM2XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg",
+          "link": "https://www.youtube.com/embed/B7I6D3mSYTE"
+        },
+        {
+          "id": 56,
+          "titulo": "Terms of Endearment",
+          "ano": 1984,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMTk0ODM4NDk0MF5BMl5BanBnXkFtZTgwMTEzMDUxMDE@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/sSY3YUrdSJI"
+        },
+        {
+          "id": 57,
+          "titulo": "Amadeus",
+          "ano": 1985,
+          "capa": "https://upload.wikimedia.org/wikipedia/pt/0/0f/AmadeusPoster.jpg",
+          "link": "https://www.youtube.com/embed/r7kWQj9FCGY"
+        },
+        {
+          "id": 58,
+          "titulo": "Out of Africa",
+          "ano": 1986,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMTc5Y2NiZWQtZGY4YS00NDI4LThhM2ItMDdhYzFlNzY1NmM0XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/2EW2kNCmZZ0"
+        },
+        {
+          "id": 59,
+          "titulo": "Platoon",
+          "ano": 1987,
+          "capa": "https://m.media-amazon.com/images/I/71E0DnF7XRL._AC_UF894,1000_QL80_.jpg",
+          "link": "https://www.youtube.com/embed/R8weLPF4qBQ"
+        },
+        {
+          "id": 60,
+          "titulo": "The Last Emperor",
+          "ano": 1988,
+          "capa": "https://m.media-amazon.com/images/M/MV5BYWZhOThiYTktMTIxNi00OGRlLWI4MTAtNDhjOGEwNjcxMTg3XkEyXkFqcGdeQXVyMTU3NDU4MDg2._V1_.jpg",
+          "link":"https://www.youtube.com/embed/A4cH6g1wD5g"
+        },
+        {
+          "id": 61,
+          "titulo": "Rain Man",
+          "ano": 1989,
+          "capa": "https://m.media-amazon.com/images/I/514MRDGQE7L._AC_UF894,1000_QL80_.jpg",
+          "link": "https://www.youtube.com/embed/mlNwXuHUA8I"
+        },
+        {
+          "id": 62,
+          "titulo": "Driving Miss Daisy",
+          "ano": 1990,
+          "capa": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/a628caf512a3d2cbe1de5fd87c74686fb6e5b773b91bf660310715de051f1626._RI_TTW_.jpg",
+          "link": "https://www.youtube.com/embed/TQ3wXC5jqKE"
+        },
+        {
+          "id": 63,
+          "titulo": "Dances with Wolves",
+          "ano": 1991,
+          "capa": "https://m.media-amazon.com/images/I/81Wuav1jp7L._AC_UF894,1000_QL80_.jpg",
+          "link": "https://www.youtube.com/embed/uc8NMbrW7mI"
+        },
+        {
+          "id": 64,
+          "titulo": "The Silence of the Lambs",
+          "ano": 1992,
+          "capa": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/W6Mm8Sbe__o"
+        },
+        {
+          "id": 65,
+          "titulo": "Unforgiven",
+          "ano": 1993,
+          "capa": "https://m.media-amazon.com/images/M/MV5BODVhNDg1NjItZmM2Ny00NmI3LWFkNjktZDhjODY2MzFlNTI2XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/ftTX4FoBWlE"
+        },
+        {
+          "id": 66,
+          "titulo": "Schindler’s List",
+          "ano": 1994,
+          "capa": "https://m.media-amazon.com/images/I/81+H4lZVw+L._AC_UF894,1000_QL80_.jpg",
+          "link": "https://www.youtube.com/embed/mxphAlJID9U"
+        },
+        {
+          "id": 67,
+          "titulo": "Forrest Gump",
+          "ano": 1995,
+          "capa": "https://upload.wikimedia.org/wikipedia/pt/c/c0/ForrestGumpPoster.jpg",
+          "link": "https://www.youtube.com/embed/bLvqoHBptjg"
+        },
+        {
+          "id": 68,
+          "titulo": "Braveheart",
+          "ano": 1996,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+          "link": "https://www.youtube.com/embed/1NJO0jxBtMo"
+        },
+        {
+          "id": 69,
+          "titulo": "The English Patient",
+          "ano": 1997,
+          "capa": "https://m.media-amazon.com/images/M/MV5BOTkxZTdkNTQtM2QwOS00NzRlLWEyMGItYTcxOTE4NTgyNGVhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/p2HUQFu0TtE"
+        },
+        {
+          "id": 70,
+          "titulo": "Titanic",
+          "ano": 1998,
+          "capa": "https://upload.wikimedia.org/wikipedia/pt/2/22/Titanic_poster.jpg",
+          "link": "https://www.youtube.com/embed/IH6_CA_ocqY"
+        },
+        {
+          "id": 71,
+          "titulo": "Shakespeare in Love",
+          "ano": 1999,
+          "capa": "https://m.media-amazon.com/images/M/MV5BM2ZkNjM5MjEtNTBlMC00OTI5LTgyYmEtZDljMzNmNzhiNzY0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/gk1rTKB6ZF8"
+        },
+        {
+          "id": 72,
+          "titulo": "American Beauty",
+          "ano": 2000,
+          "capa": "https://m.media-amazon.com/images/I/913vQ4qaTYL._AC_UF894,1000_QL80_.jpg",
+          "link": "https://www.youtube.com/embed/Ly7rq5EsTC8"
+        },
+        {
+          "id": 73,
+          "titulo": "Gladiator",
+          "ano": 2001,
+          "capa": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+          "link": "https://www.youtube.com/embed/P5ieIbInFpg"
+        },
+            {
+              "id": 74,
+              "titulo": "A Beautiful Mind",
+              "ano": 2002,
+              "capa": "https://m.media-amazon.com/images/M/MV5BMzcwYWFkYzktZjAzNC00OGY1LWI4YTgtNzc5MzVjMDVmNjY0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+              "link": "https://www.youtube.com/embed/EajIlG_OCvw"
+            },
+            {
+              "id": 75,
+              "titulo": "Chicago",
+              "ano": 2003,
+              "capa": "https://m.media-amazon.com/images/M/MV5BN2E3NDU1ZTktNzZjNy00MWU3LWI4YmMtMjdjNTIzMDU0MDdiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+              "link": "https://www.youtube.com/embed/9EpaMmF9WVU"
+            },
+            {
+              "id": 76,
+              "titulo": "The Lord of the Rings: The Return of the King",
+              "ano": 2004,
+              "capa": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+              "link": "https://www.youtube.com/embed/y2rYRu8UW8M"
+            },
+            {
+              "id": 77,
+              "titulo": "Million Dollar Baby",
+              "ano": 2005,
+              "capa": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/7bb2b7fca3e3f959747c580286668aa470c9ed2547d07c6bc45da49a01381246._RI_TTW_.jpg",
+              "link": "https://www.youtube.com/embed/5_RsHRmIRBY"
+            },
+            {
+              "id": 78,
+              "titulo": "Crash",
+              "ano": 2006,
+              "capa": "https://m.media-amazon.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_.jpg",
+              "link": "https://www.youtube.com/embed/DEJH0hEoHc4"
+            },
+            {
+              "id": 79,
+              "titulo": "The Departed",
+              "ano": 2007,
+              "capa": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p162564_p_v8_ag.jpg",
+              "link": "https://www.youtube.com/embed/iojhqm0JTW4"
+            },
+            {
+              "id": 80,
+              "titulo": "No Country for Old Men",
+              "ano": 2008,
+              "capa": "https://m.media-amazon.com/images/I/81NXpDqn0VL._AC_UF894,1000_QL80_.jpg",
+              "link": "https://www.youtube.com/embed/38A__WT3-o0"
+            },
+            {
+              "id": 81,
+              "titulo": "Slumdog Millionaire",
+              "ano": 2009,
+              "capa": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/087e0434b9162796516656b3e8d4385af76199b816e7ec788439374ccd54b6aa._RI_TTW_.jpg",
+              "link": "https://www.youtube.com/embed/SQ7P5wEI2CA"
+            },
+            {
+              "id": 82,
+              "titulo": "The Hurt Locker",
+              "ano": 2010,
+              "capa": "https://m.media-amazon.com/images/M/MV5BYWYxZjU2MmQtMmMzYi00ZWUwLTg2ZWQtMDExZTVlYjM3ZWM1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+              "link": "https://www.youtube.com/embed/AIbFvqFYRT4"
+            },
+            {
+              "id": 83,
+              "titulo": "The King’s Speech",
+              "ano": 2011,
+              "capa": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_.jpg",
+              "link": "https://www.youtube.com/embed/gSw6ei5tdbg"
+            },
+            {
+              "id": 84,
+              "titulo": "The Artist",
+              "ano": 2012,
+              "capa": "https://m.media-amazon.com/images/M/MV5BNzYxMjBkNzAtY2M2YS00YjRhLTgzOTYtY2FiOGM2OTBlZjdiXkEyXkFqcGdeQXVyMTU3NDU4MDg2._V1_FMjpg_UX1000_.jpg",
+              "link": "https://www.youtube.com/embed/YB9Oq0hn5KY"
+            },
+            {
+              "id": 85,
+              "titulo": "Argo",
+              "ano": 2013,
+              "capa": "https://upload.wikimedia.org/wikipedia/pt/e/e1/Argo2012Poster.jpg",
+              "link": "https://www.youtube.com/embed/JW3WfSFgrVY"
+            },
+            {
+              "id": 86,
+              "titulo": "12 Years a Slave",
+              "ano": 2014,
+              "capa": "https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_FMjpg_UX1000_.jpg",
+              "link": "https://www.youtube.com/embed/NYYtS9KSWNg"
+            },
+            {
+              "id": 87,
+              "titulo": "Birdman or (The Unexpected Virtue of Ignorance)",
+              "ano": 2015,
+              "capa": "https://br.web.img3.acsta.net/pictures/14/11/14/10/39/525352.jpg",
+              "link": "https://www.youtube.com/embed/n7kPKVxuz6k"
+            },
+            {
+              "id": 88,
+              "titulo": "Spotlight",
+              "ano": 2016,
+              "capa": "https://br.web.img3.acsta.net/pictures/15/12/11/13/14/181510.jpg",
+              "link": "https://www.youtube.com/embed/zgicIR5Skwc"
+            },
+            {
+              "id": 89,
+              "titulo": "Moonlight",
+              "ano": 2017,
+              "capa": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3ba32041615387.57acc4bf0b15f.jpg",
+              "link": "https://www.youtube.com/embed/9NJj12tJzqc"
+            },
+            {
+              "id": 90,
+              "titulo": "The Shape of Water",
+              "ano": 2018,
+              "capa": "https://m.media-amazon.com/images/M/MV5BNGNiNWQ5M2MtNGI0OC00MDA2LWI5NzEtMmZiYjVjMDEyOWYzXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
+              "link": "https://www.youtube.com/embed/XFYWazblaUA"
+            },
+            {
+              "id": 91,
+              "titulo": "Green Book",
+              "ano": 2019,
+              "capa": "https://br.web.img2.acsta.net/pictures/18/08/15/13/09/1891759.jpg",
+              "link": "https://www.youtube.com/embed/QxXJ7vkFk48"
+            },
+            {
+              "id": 92,
+              "titulo": "Gisaengchung",
+              "ano": 2020,
+              "capa": "https://m.media-amazon.com/images/I/81Z4sJVge8L._AC_UF894,1000_QL80_.jpg",
+              "link": "https://www.youtube.com/embed/w_0KJAzyUJc"
+            },
+            {
+              "id": 93,
+              "titulo": "Nomadland",
+              "ano": 2021,
+              "capa": "https://br.web.img2.acsta.net/pictures/20/12/14/16/50/2695446.jpg",
+              "link": "https://www.youtube.com/embed/ruKCQ7dQZ6E"
+            },
+            {
+              "id": 94,
+              "titulo": "CODA",
+              "ano": 2022,
+              "capa": "https://upload.wikimedia.org/wikipedia/pt/e/eb/Coda_2021.jpg",
+              "link": "https://www.youtube.com/embed/0pmfrE1YL4I"
+            },
+            {
+              "id": 95,
+              "titulo": "Everything Everywhere All at Once",
+              "ano": 2023,
+              "capa": "https://i.etsystatic.com/18242346/r/il/7fb6f1/3898744406/il_fullxfull.3898744406_6wp7.jpg",
+              "link": "https://www.youtube.com/embed/wxN1T1uxQ2g"
+            }
+          
+          
+    ]

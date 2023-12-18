@@ -1,6 +1,7 @@
 .capa{
     width: 100%;
     height: 600px;
+    min-height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;

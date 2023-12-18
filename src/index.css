@@ -7,6 +7,10 @@
   --amarelo-ouro:#e79828
 }
 
+select{
+  font-family: var(--fonte);
+}
+
 body {
   margin: 0;
   font-family: var(--fonte);
